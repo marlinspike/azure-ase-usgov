@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "asE-ipSslAddressCount": {
+            "value": 1
+        },
+        "asE-frontEndSize": {
+            "value": "Medium"
+        },
+        "asE-frontEndCount": {
+            "value": 2
+        },
+        "asE-workerPoolOneInstanceSize": {
+            "value": "Small"
+        },
+        "asE-workerPoolOneInstanceCount": {
+            "value": 2
+        },
+        "asE-workerPoolTwoInstanceSize": {
+            "value": "Small"
+        },
+        "asE-workerPoolTwoInstanceCount": {
+            "value": 0
+        },
+        "asE-workerPoolThreeInstanceSize": {
+            "value": "Small"
+        },
+        "asE-workerPoolThreeInstanceCount": {
+            "value": 0
+        },
+        "asE-APP-SERVICE-workerPool": {
+            "value": "1"
+        },
+        "asE-APP-SERVICE-numberOfWorkersFromWorkerPool": {
+            "value": 1
+        },
+        "location": {
+            "value": "USDoD Central"
+        }
+    }
+}
